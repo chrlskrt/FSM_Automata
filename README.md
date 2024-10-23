@@ -12,3 +12,7 @@ The three FSMs included in the project are: Word Matching, Simple Real Number Va
 
 ### Philippine Phone Number Validation
   This FSM validates whether an input string is a correctly formatted Philippine mobile phone number, considering both the standard prefixes (09xx or +63xx) and the total length of the number. The accepted formats are: 09xxxxxxxxx, +639xxxxxxxxx, 09xx-xxx-xxxx, and +639xx-xxx-xxxx.
+
+
+# Note
+  Please run the 'FSMApplication' that is in src/main/java/com.example.fsm_automata/FSMApplication
