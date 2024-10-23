@@ -47,12 +47,11 @@ public class SimpleRealNumberCheckerController {
         int[][] transitionTable = {
 //                digit | +/- | dot | others
                 {   1   ,  2  ,  3  ,  6  }, // state 0
-                {   1   ,  6  ,  4  ,  6  }, // state 1 - final state
-                {   1   ,  6  ,  3  ,  6  }, // state 2
-                {   5   ,  6  ,  6  ,  6  }, // state 3
-                {   5   ,  6  ,  6  ,  6  }, // state 4
-                {   5   ,  6  ,  6  ,  6  }, // state 5 - final state
-                {   6   ,  6  ,  6  ,  6  }  // state 6 - dead state
+                {   1   ,  5  ,  4  ,  5  }, // state 1 - final state
+                {   1   ,  5  ,  3  ,  5  }, // state 2
+                {   4   ,  5  ,  5  ,  5  }, // state 3
+                {   4   ,  5  ,  5  ,  5  }, // state 4
+                {   5   ,  5  ,  5  ,  5  }  // state 5 - dead state
         };
 
         int state = 0; // initial state
@@ -77,7 +76,7 @@ public class SimpleRealNumberCheckerController {
             ci.next();
         }
 
-        if (state == 1 || state == 5){
+        if (state == 1 || state == 4){
             return 1;
         }
 
