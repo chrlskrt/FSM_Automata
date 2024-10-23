@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.text.CharacterIterator;
 import java.text.StringCharacterIterator;
 
-public class RealNumberCheckerController {
+public class SimpleRealNumberCheckerController {
 
     public TextField tfNumberInput;
     public VBox vboxResult;

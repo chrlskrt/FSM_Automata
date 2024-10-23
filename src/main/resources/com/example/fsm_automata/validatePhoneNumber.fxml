@@ -65,7 +65,7 @@
                                 <Insets left="50.0" right="50.0" />
                             </VBox.margin>
                             <children>
-                                <Label fx:id="lblResult" alignment="CENTER" prefHeight="62.0" prefWidth="499.0" textAlignment="JUSTIFY" wrapText="true">
+                                <Label fx:id="lblResult" alignment="CENTER" prefHeight="62.0" prefWidth="499.0" textAlignment="CENTER" wrapText="true">
                                     <font>
                                         <Font size="15.0" />
                                     </font>

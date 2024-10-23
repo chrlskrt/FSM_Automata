@@ -15,6 +15,6 @@
          <Font size="26.0" />
       </font></Label>
   <Button fx:id="btnCheckAND" onAction="#onBtnCheckANDClick" text="Check if a word starts and ends with 'and'" />
-   <Button fx:id="btnCheckRealNumber" mnemonicParsing="false" onAction="#onBtnCheckRealNumberClick" text="Check for real number" />
+   <Button fx:id="btnCheckRealNumber" mnemonicParsing="false" onAction="#onBtnCheckRealNumberClick" text="Simple real number checker" />
    <Button fx:id="btnValidatePhoneNumber" mnemonicParsing="false" onAction="#onBtnValidatePhoneNumberClick" text="Validate PH phone number" />
 </VBox>

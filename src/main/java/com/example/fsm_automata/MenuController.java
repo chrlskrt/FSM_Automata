@@ -25,15 +25,6 @@ public class MenuController {
         stage.setTitle("Word Checker");
     }
 
-    public void onBtnValidateEmailClick(ActionEvent actionEvent) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("validateEmail.fxml"));
-        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        Scene scene = new Scene(root, 600, 400);
-        stage.setScene(scene);
-        stage.show();
-        stage.setTitle("Email Validation");
-    }
-
     public void onBtnValidatePhoneNumberClick(ActionEvent actionEvent) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("validatePhoneNumber.fxml"));
         Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
